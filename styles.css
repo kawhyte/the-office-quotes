@@ -17,21 +17,21 @@ body {
 
 .bucket{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    margin-top: 10%;
     
 }
 
 .main-title { 
-    margin: 20px;
+    margin: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Alegreya Sans SC', sans-serif;
-    
     font-weight: 700;
     font-size: 50px;
     text-transform: uppercase;
@@ -39,7 +39,7 @@ body {
     padding-left: .4em;
 }
 
-.main-title::after {
+/* .main-title::after {
     background-color: #efefef; 
     bottom: 0;
     content: '';
@@ -49,36 +49,32 @@ body {
     position: absolute;
     transform: translate(-50%,0);
     width: 50px;
-}
+} */
 
 .sub-title{
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Alegreya Sans SC', sans-serif;
 
     font-family: 'Abel', sans-serif;
     color: #888;
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
-    letter-spacing: .12em;
-    padding-left: .12em
+    letter-spacing: .1em;
+    padding-left: .1em
 }
 
 .container {
     background-color: #fff;
     border-radius: 10px;
-    padding: 50px 20px;
+    padding: 55px 25px;
     max-width: 100%;
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 380px;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-    
-   
-
 }
 
 h3 {
@@ -119,6 +115,17 @@ outline: 0;
 
 
 }
+
+div#photo {
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+div#text-area {
+    margin-left: 15%;
+    height: 400px;
+}
+
 
 .footer {
     position: fixed;
