@@ -6,17 +6,50 @@
 body {
 
     background-color: #EDE5D6;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+    font-family: 'Abel', sans-serif;
+    
     background: url(img/bg.svg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
+}
+
+.bucket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-title, .sub-title{ 
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    
+    font-weight: 700;
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    padding-left: .4em
+    
+
+    
+    
+}
+.sub-title{
+    font-family: 'Abel', sans-serif;
+    color: #888;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .12em;
+    padding-left: .12em
 }
 
 .container {
@@ -27,7 +60,7 @@ body {
     width: 800px;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-
+    
    
 
 }
@@ -38,7 +71,7 @@ h3 {
     opacity: 0.5;
 }
 
-.joke {
+.quote {
     font-size: 30px;
     line-height: 40px;
     margin: 50px auto;

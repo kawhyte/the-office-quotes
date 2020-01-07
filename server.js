@@ -1,6 +1,6 @@
-const quote = document.getElementById("joke");
+const quote = document.getElementById("quote");
 const author = document.getElementById("author");
-const getNewQuote = document.getElementById("get_joke");
+const getNewQuote = document.getElementById("get_quote");
 
 //getNewQuote.addEventListener('click', getMantra() )
 getNewQuote.addEventListener('click', getMantra)
