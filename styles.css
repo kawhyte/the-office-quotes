@@ -38,6 +38,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .4em;
     padding-left: .4em;
+
 }
 
 /* .main-title::after {
@@ -59,7 +60,7 @@ body {
     justify-content: center;
 
     font-family: 'Abel', sans-serif;
-    color: #888;
+    color: black;
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
@@ -151,6 +152,15 @@ div#text-area {
 a {
     color: black;
 }
+
+.heading__title {
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: hsla(188, 99%, 59%, 0.7);
+    /* rgb(188,228,228) */
+    font-size: 1.5rem;
+  }
 
 /* @media(max-width:900px) {
 
