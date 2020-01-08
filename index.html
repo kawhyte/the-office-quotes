@@ -9,25 +9,33 @@
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>The Office Quotes</title>
 </head>
 
 <body>
-    <div class="main-title avenir tc-l ph4-ns pt4-ns">
+    <div  class="main-title avenir tc-l ph4-ns pt4-ns">
         The Office Quotes
     </div>
-    <div class="sub-title">
+    <div class="sub-title"  >
         Funny quotes from the popular TV show (U.S. version)
     </div>
 
     <div class="bucket">
-        <div class="container">
+        <div class="container" >
             <div id="photo" class="photo">
                 <img src="/img/MS.png" alt="">
             </div>
             <div id="text-area" class="text-area">
-                <h3 id="author" class="dib avenir tc-l">Dwight Schrute</h3> from <span class="dib avenir tc-l" id="season">season</span>
-                <div class="quote f5 f4-m f3-l lh-copy measure mt0" id="quote">Quote here </div>
+                <div data-aos="fade-in" data-aos-offset="400"
+                data-aos-delay="550"
+                data-aos-duration="1000" class="quote f5 f4-m f3-l lh-copy measure mt0" id="quote">Quote here </div>
+                <h3 id="author" class="dib author "data-aos="fade-in" data-aos-offset="400"
+                data-aos-delay="550"
+                data-aos-duration="1000">Dwight Schrute</h3>  <p class="dib" id="season"data-aos="fade-in" data-aos-offset="400"
+                data-aos-delay="550"
+                data-aos-duration="1000">season</p>
+                <br>
                 <button class="btn" id="get_quote">Random Office Quote</button>
             </div>
 
@@ -45,5 +53,8 @@
 </body>
 
 <script src="/server.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

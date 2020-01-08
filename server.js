@@ -25,7 +25,7 @@ async function getMantra() {
   } else {
     quote.textContent = "'"+myJson[num].text+ "'";
     author.textContent = myJson[num].from;
-    season.textContent = myJson[num].season;
+    season.textContent = "from "+ myJson[num].season;
 
   }
 //   if ( a=== null || mantraData.text) {
