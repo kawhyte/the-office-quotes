@@ -69,12 +69,13 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(254, 254, 254, 0.83);
     border-radius: 10px;
-    padding: 55px 25px;
+    margin-top: 80px;
+    padding: 5px 15px;
     max-width: 100%;
-    width: 800px;
-    height: 380px;
+    width: 900px;
+    height: 400px;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
@@ -125,7 +126,7 @@ div#photo {
     align-items: center;
     justify-content: center;
     height: 25vh;
-    width: 20vh;
+    width: 25vh;
     margin: 0;
 
     float: left;
