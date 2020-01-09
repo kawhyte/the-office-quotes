@@ -2,18 +2,26 @@
 
     box-sizing: border-box;
 }
+html, body{
+    height: 100%;
+  }
 
 body {
 
     background-color: #EDE5D6;
     font-family: 'Poppins', sans-serif;
-    background: url(img/bg.svg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url(img/bg.svg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
+.wrapper {
+    height: 100%; 
+    width: 100%; 
+  }
 
 header {
     /* background: lightpink; */
@@ -191,6 +199,9 @@ a {
 }
 
 @media screen and ( max-width:1388px){
+
+   
+    
 
     .presentation{
         flex-direction: column;
