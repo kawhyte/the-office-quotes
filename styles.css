@@ -17,55 +17,72 @@ body {
 
 header {
     background: lightpink;
-    margin: 30px 0px 300px 0px;
+    margin: 30px 0px 200px 0px;
 }
 
 
 
-.presentation{
-background: lightyellow;
-display: flex;
-width: 60%;
-margin: auto;
-min-height: 30vh;
-align-items: center;
-justify-content: center;
-border-radius: 10px;
+.presentation {
+    background: white;
+    display: flex;
+    width: 50%;
+
+    margin: auto;
+    /* min-height: 30vh; */
+    /* max-width: 1000px; */
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 
 }
 
-.content-box{
-    flex: 1;
-    
-     background: lightcoral;
+.content-box {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    background: lightcoral;
+
 }
- .quote-text{
+
+.quote-text {
     margin: 5px 10px 15px 20px;
- }
-.quote-text p{
-    margin: 5px ;
+    /* min-width: 350px; */
+}
+
+.quote-text p {
+    margin: 5px;
     font-size: 22px;
 
 }
 
-.cover{
-    flex:1;
-    display: flex;
-    justify-content: center;
-    height: 60vh;
- background: green;
+.cover {
 
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 25vh;
+
+    background: green;
+    /* max-width: 350px; */
+    /* min-width: 350px ;  */
 }
 
 .cover img {
-    height: 100%;
-       
-       filter: drop-shadow(0px 3px 2px black);
-    }
 
-.bucket {
+    height: 99%;
+    /* min-height: 60%; */
+    filter: drop-shadow(0px 3px 2px black);
+}
+
+/* .bucket {
     display: flex;
-    /* align-items: center; */
+   
     justify-content: center;
     height: 100vh;
     margin: 0;
@@ -73,7 +90,7 @@ border-radius: 10px;
     margin-top: 10%;
     min-width: 500px;
 
-}
+} */
 
 .main-title {
     background: lightcoral;
@@ -129,11 +146,11 @@ border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
-h3 {
+/* h3 {
     margin: 0;
     letter-spacing: 1px;
     opacity: 0.5;
-}
+} */
 
 .quote {
     font-size: 30px;
@@ -154,9 +171,10 @@ h3 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
     color: rgb(97, 77, 84);
     padding: 14px 40px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 800;
     cursor: pointer;
+    margin: 0px 0px 10px 0px;
 
 }
 
@@ -170,7 +188,7 @@ h3 {
 
 }
 
-div#photo {
+/* div#photo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,7 +204,7 @@ div#text-area {
     margin-left: 20%;
     margin-top: 5%;
     height: 400px;
-}
+} */
 
 
 .footer {
@@ -212,15 +230,96 @@ a {
     font-size: 1.5rem;
 }
 
-/* @media(max-width:900px) {
+@media screen and ( max-width:1388px){
 
-    .bucket{
-display: block;
-
-    } 
-
-    .container{
-
-        display:block;
+    .presentation{
+        flex-direction: column;
+        width: 80%;
     }
-} */
+    .content-box{
+        margin-top: .1vh;
+        text-align: center;
+    }
+    .quote-text h1{
+        font-size: 25px;
+    }
+    .quote-text p {
+     font-size: 20px;
+ }
+
+ header{
+    margin: 10px 0px 50px 0px;
+ }
+ 
+ .main-title {
+   
+    /* margin: 0px 0px 30px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    padding-left: .2em;
+
+}
+
+.sub-title {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Abel', sans-serif;
+    color: black;
+    font-size: 1em;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: .1em;
+    padding-left: .1em
+}
+.cover {
+
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: green;
+    /* max-width: 350px; */
+    /* min-width: 350px ;  */
+}
+
+ 
+ .cover img{
+  height: 100%;
+ }
+
+
+ .btn {
+
+    background-color: rgb(242, 185, 134);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    color: rgb(97, 77, 84);
+    padding: 14px 40px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 0px 20px 20px 20px;
+
+}
+
+.footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(253, 124, 151, 0.4);
+    color: black;
+    text-align: center;
+}
+ }
