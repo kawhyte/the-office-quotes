@@ -194,21 +194,21 @@ a {
 
     .presentation{
         flex-direction: column;
-        width: 40%;
+        width: 95%;
     }
     .content-box{
-        margin-top: .1vh;
+        margin-top: .01vh;
         text-align: center;
     }
     .quote-text h1{
-        font-size: 25px;
+        font-size: 22px;
     }
     .quote-text p {
-     font-size: 20px;
+     font-size: 18px;
  }
 
  header{
-    margin: 10px 0px 50px 0px;
+    margin: 10px 0px 15px 0px;
  }
  
  .main-title {
@@ -219,7 +219,7 @@ a {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .3em;
     padding-left: .2em;
@@ -234,7 +234,7 @@ a {
 
     font-family: 'Abel', sans-serif;
     color: black;
-    font-size: 1.2em;
+    font-size: .7em;
     font-weight: 100;
     font-style: italic;
     letter-spacing: .1em;
@@ -265,10 +265,10 @@ a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
     color: rgb(97, 77, 84);
     padding: 14px 40px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 800;
     cursor: pointer;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 10px;
 
 }
 
@@ -278,7 +278,7 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    font-size: 10px;
+    font-size: 8px;
     background-color: rgba(253, 124, 151, 0.4);
     color: black;
     text-align: center;
