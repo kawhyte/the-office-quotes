@@ -17,8 +17,51 @@ body {
 
 header {
     background: lightpink;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 300px 0px;
 }
+
+
+
+.presentation{
+background: lightyellow;
+display: flex;
+width: 60%;
+margin: auto;
+min-height: 30vh;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+
+}
+
+.content-box{
+    flex: 1;
+    
+     background: lightcoral;
+}
+ .quote-text{
+    margin: 5px 10px 15px 20px;
+ }
+.quote-text p{
+    margin: 5px ;
+    font-size: 22px;
+
+}
+
+.cover{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+ background: green;
+
+}
+
+.cover img {
+    height: 100%;
+       
+       filter: drop-shadow(0px 3px 2px black);
+    }
 
 .bucket {
     display: flex;
@@ -75,7 +118,7 @@ header {
 }
 
 .container {
-    background-color: rgba(254, 254, 254, 0.83);
+    /* background-color: rgba(254, 254, 254, 0.83); */
     border-radius: 10px;
     margin-top: 80px;
     padding: 5px 15px;
