@@ -148,7 +148,7 @@ h3 {
 
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:600px) {
 
 
     .main-title {
@@ -175,6 +175,28 @@ h3 {
         background-color: rgba(253, 124, 151, 0.4);
         color: black;
         text-align: center;
+    }
+
+
+    .joke {
+        margin: 5px;
+        font-size: 22px;
+    
+    }
+
+    .sub-title {
+        margin-top: 5px;
+        margin-bottom: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: 1em;
+        font-weight: 700;
+        font-style: italic;
+        letter-spacing: .1em;
+        padding-left: .1em
     }
 
 
