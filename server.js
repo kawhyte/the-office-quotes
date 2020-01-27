@@ -4,8 +4,7 @@ const season = document.getElementById("season");
 const author = document.getElementById("author");
 const getNewQuote = document.getElementById("get_quote");
 
-
-getNewQuote.addEventListener('click', getMantra)
+getNewQuote.addEventListener("click", getMantra);
 
 //Get quotes
 async function getMantra() {
@@ -16,23 +15,23 @@ async function getMantra() {
   //console.log(myJsonSize);
   console.log(keyCount);
   //let num = Math.floor(Math.random() * Math.floor(myJsonSize));
-  let num = Math.floor(Math.random() * keyCount) + 1  
-console.log(myJson[num].quote )
+  let num = Math.floor(Math.random() * keyCount) + 1;
+  console.log(myJson[num].quote);
 
-  if (myJson[num].quote === null || myJson[num].character === null|| myJson[num].pic === null) {
-    quote.textContent =
-      "What's the scuttlebutt?";
+  if (
+    myJson[num].quote === null ||
+    myJson[num].character === null ||
+    myJson[num].pic === null
+  ) {
+    quote.textContent = "What's the scuttlebutt?";
     author.textContent = "Dwight Schrute";
     document.getElementById("pic").src = "./img/dwight.png";
   } else {
-    
-    quote.textContent = "'" + myJson[num].quote+ "'";
+    quote.textContent = "'" + myJson[num].quote + "'";
     author.textContent = myJson[num].character;
     document.getElementById("pic").src = myJson[num].pic;
     //season.textContent = "from "+ myJson[num].season;
-
   }
-
 }
 
-getMantra()
+getMantra();

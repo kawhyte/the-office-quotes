@@ -263,5 +263,28 @@
     "character": "Michael Scott",
     "quote": "I have flaws. What are they? I sing in the shower. Sometimes I spend too much time volunteering. Occasionally I'll hit somebody with my car.",
     "pic": "./img/MichaelScott.png"
+  },
+  {
+    "character": "Michael Scott",
+    "quote": "Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way.",
+    "pic": "./img/MichaelScott.png"
+  },
+  {
+    "character": "Michael Scott",
+    "quote": "No, I’m not going to tell them about the downsizing. If a patient has cancer, you don’t tell them.",
+    "pic": "./img/MichaelScott.png"
+  },
+  
+  {
+    "character": "Dwight Schrute",
+    "quote": "I never thought I’d say this, but I think I ate too much bone marrow.",
+    "pic": "./img/dwight.png"
+  },
+
+  {
+    "character": "Jim Halpert",
+    "quote": "Everything I have I owe to this job…this stupid, wonderful, boring, amazing job.",
+    "pic": "./img/jim.png"
   }
+
 ]
