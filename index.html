@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900&display=swap" rel="stylesheet">   -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
-    <title>The Office Quotes</title>
 </head>
 
 <body>
-    <div class="wrapper">
     <header>
         <div class="main-title avenir">
             The Office Quotes
@@ -22,44 +24,19 @@
             Funny quotes from the popular TV show (U.S. version)
         </div>
     </header>
-
-    <main>
-        <section class="presentation">
-
-            <div id="photo" class="cover">
-                <img id="pic" src="" alt="">
-            </div>
-            <div class="content-box">
-                <!-- <div class="container"> -->
-                <div class="quote-text">
-                    <!-- <div id="text-area" class="text-area"></div> -->
-                    <h1 id="quote">Quote here </h1>
-                    <p id="author">Dwight Schrute</p>
-                    <!-- </div>     -->
-                </div>
-                <div class="button">
-                    <button class="btn" id="get_quote">Random Office Quote</button>
-                </div>
-            </div>
-            
-        </section>
-  
-    </main>
-    <footer>
-        <div class="footer">
-            <p class=""><span class="">This site is not affiliated with "The Office" or its
-                    distributers | </span>
-                <!-- <a class="link" href="/terms">Terms</a> /
-                <a class="link" href="/privacy"> The Office </a> / -->
-                <a class="link" href="www.kennywhyte.com"> kennywhyte.com </a>
-            </p>
+    <div class=main-container>
+    <div class="container">
+        <!-- <div id="photo" class="cover"> -->
+        <img id="pic" class="pic" src="" alt="">
+        <!-- </div> -->
+        <p id="author" class="author">Dwight Schrute</p>
+        <div id="quote" class="joke">
+            // joke goes here
         </div>
-    </footer>
-
+        <button id="get_quote" class="btn">Get Another Quote</button>
+    </div>
 </div>
+    <script src="server.js" async defer></script>
 </body>
-
-<script src="/server.js"></script>
-
 
 </html>
